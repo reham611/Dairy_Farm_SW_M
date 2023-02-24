@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Dairy_Farm_SW_M
 {
-    public partial class splash : Form
+    public partial class Login : Form
     {
-        public splash()
+        public Login()
         {
             InitializeComponent();
-        }
-
-        private void splash_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
