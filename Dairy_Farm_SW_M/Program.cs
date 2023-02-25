@@ -16,7 +16,7 @@ namespace Dairy_Farm_SW_M
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new splash());
+            Application.Run(new cows());
         }
     }
 }

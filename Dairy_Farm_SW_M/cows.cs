@@ -10,29 +10,19 @@ using System.Windows.Forms;
 
 namespace Dairy_Farm_SW_M
 {
-    public partial class Login : Form
+    public partial class cows : Form
     {
-        public Login()
+        public cows()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -38,9 +38,9 @@ namespace Dairy_Farm_SW_M
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(474, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(474, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(442, 452);
+            this.pictureBox1.Size = new System.Drawing.Size(484, 479);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -51,7 +51,7 @@ namespace Dairy_Farm_SW_M
             this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 19.8F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(37, 173);
+            this.label1.Location = new System.Drawing.Point(40, 206);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(371, 42);
             this.label1.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace Dairy_Farm_SW_M
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Firebrick;
-            this.ClientSize = new System.Drawing.Size(916, 449);
+            this.ClientSize = new System.Drawing.Size(958, 480);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
