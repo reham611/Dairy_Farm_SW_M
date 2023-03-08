@@ -31,9 +31,9 @@ namespace Dairy_Farm_SW_M
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cows));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -63,6 +63,10 @@ namespace Dairy_Farm_SW_M
             this.doubleBitmapControl1 = new BunifuAnimatorNS.DoubleBitmapControl();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
@@ -79,7 +83,7 @@ namespace Dairy_Farm_SW_M
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(455, 751);
+            this.panel1.Size = new System.Drawing.Size(455, 842);
             this.panel1.TabIndex = 1;
             // 
             // label7
@@ -136,7 +140,7 @@ namespace Dairy_Farm_SW_M
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(455, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1355, 43);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1387, 43);
             this.guna2GradientPanel1.TabIndex = 2;
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
@@ -162,7 +166,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(553, 95);
+            this.label2.Location = new System.Drawing.Point(540, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 25);
             this.label2.TabIndex = 3;
@@ -172,7 +176,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(853, 95);
+            this.label3.Location = new System.Drawing.Point(840, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 25);
             this.label3.TabIndex = 4;
@@ -183,7 +187,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1162, 95);
+            this.label4.Location = new System.Drawing.Point(1149, 80);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 25);
             this.label4.TabIndex = 5;
@@ -193,7 +197,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1473, 95);
+            this.label8.Location = new System.Drawing.Point(1460, 80);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(64, 25);
             this.label8.TabIndex = 6;
@@ -202,7 +206,7 @@ namespace Dairy_Farm_SW_M
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(941, 178);
+            this.label9.Location = new System.Drawing.Point(928, 163);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(0, 17);
             this.label9.TabIndex = 8;
@@ -219,7 +223,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(558, 134);
+            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(545, 119);
             this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox1.MaxLength = 32767;
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
@@ -239,7 +243,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(858, 134);
+            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(845, 119);
             this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox2.MaxLength = 32767;
             this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
@@ -259,7 +263,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox3.isPassword = false;
-            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(1167, 134);
+            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(1154, 119);
             this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox3.MaxLength = 32767;
             this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
@@ -279,7 +283,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox4.isPassword = false;
-            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(1478, 134);
+            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(1465, 119);
             this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox4.MaxLength = 32767;
             this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
@@ -299,7 +303,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox5.isPassword = false;
-            this.bunifuMetroTextbox5.Location = new System.Drawing.Point(858, 257);
+            this.bunifuMetroTextbox5.Location = new System.Drawing.Point(845, 242);
             this.bunifuMetroTextbox5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox5.MaxLength = 32767;
             this.bunifuMetroTextbox5.Name = "bunifuMetroTextbox5";
@@ -311,7 +315,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(853, 218);
+            this.label10.Location = new System.Drawing.Point(840, 203);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(48, 25);
             this.label10.TabIndex = 15;
@@ -321,7 +325,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Constantia", 12F);
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(558, 261);
+            this.dateTimePicker1.Location = new System.Drawing.Point(545, 246);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(227, 32);
             this.dateTimePicker1.TabIndex = 17;
@@ -331,7 +335,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(562, 218);
+            this.label11.Location = new System.Drawing.Point(549, 203);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(123, 25);
             this.label11.TabIndex = 18;
@@ -349,7 +353,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox6.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox6.isPassword = false;
-            this.bunifuMetroTextbox6.Location = new System.Drawing.Point(1478, 257);
+            this.bunifuMetroTextbox6.Location = new System.Drawing.Point(1465, 242);
             this.bunifuMetroTextbox6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox6.MaxLength = 32767;
             this.bunifuMetroTextbox6.Name = "bunifuMetroTextbox6";
@@ -369,7 +373,7 @@ namespace Dairy_Farm_SW_M
             this.bunifuMetroTextbox7.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox7.isPassword = false;
-            this.bunifuMetroTextbox7.Location = new System.Drawing.Point(1167, 257);
+            this.bunifuMetroTextbox7.Location = new System.Drawing.Point(1154, 242);
             this.bunifuMetroTextbox7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox7.MaxLength = 32767;
             this.bunifuMetroTextbox7.Name = "bunifuMetroTextbox7";
@@ -381,7 +385,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1473, 218);
+            this.label12.Location = new System.Drawing.Point(1460, 203);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(79, 25);
             this.label12.TabIndex = 20;
@@ -391,7 +395,7 @@ namespace Dairy_Farm_SW_M
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1162, 218);
+            this.label13.Location = new System.Drawing.Point(1149, 203);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(123, 25);
             this.label13.TabIndex = 19;
@@ -412,7 +416,7 @@ namespace Dairy_Farm_SW_M
             this.label14.BackColor = System.Drawing.Color.Salmon;
             this.label14.Font = new System.Drawing.Font("Constantia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(1053, 311);
+            this.label14.Location = new System.Drawing.Point(1055, 395);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(153, 35);
             this.label14.TabIndex = 26;
@@ -420,33 +424,33 @@ namespace Dairy_Farm_SW_M
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.guna2DataGridView1.ColumnHeadersHeight = 4;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(548, 362);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(489, 449);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1167, 368);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1272, 432);
             this.guna2DataGridView1.TabIndex = 25;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -469,14 +473,73 @@ namespace Dairy_Farm_SW_M
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Crimson;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(671, 318);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 38);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Crimson;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(914, 318);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 38);
+            this.button2.TabIndex = 28;
+            this.button2.Text = "Edit";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Crimson;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(1148, 318);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(135, 38);
+            this.button3.TabIndex = 29;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Crimson;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(1387, 318);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(135, 38);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "Update";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // cows
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1810, 751);
+            this.ClientSize = new System.Drawing.Size(1842, 842);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.bunifuMetroTextbox6);
@@ -545,5 +608,9 @@ namespace Dairy_Farm_SW_M
         private DoubleBitmapControl doubleBitmapControl1;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
