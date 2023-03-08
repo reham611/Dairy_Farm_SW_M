@@ -26,5 +26,10 @@ namespace Dairy_Farm_SW_M
         {
 
         }
+
+        private void cows_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
