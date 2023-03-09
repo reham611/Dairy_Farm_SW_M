@@ -78,6 +78,12 @@ namespace Dairy_Farm_SW_M
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
@@ -91,11 +97,17 @@ namespace Dairy_Farm_SW_M
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Crimson;
+            this.panel1.Controls.Add(this.panel8);
+            this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
@@ -512,7 +524,7 @@ namespace Dairy_Farm_SW_M
             this.panel2.Controls.Add(this.label5);
             this.panel2.Location = new System.Drawing.Point(30, 203);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(332, 48);
+            this.panel2.Size = new System.Drawing.Size(332, 36);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -530,9 +542,9 @@ namespace Dairy_Farm_SW_M
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(237, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(250, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(92, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(79, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -542,17 +554,17 @@ namespace Dairy_Farm_SW_M
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(30, 257);
+            this.panel3.Location = new System.Drawing.Point(30, 245);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(332, 47);
+            this.panel3.Size = new System.Drawing.Size(332, 36);
             this.panel3.TabIndex = 4;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(237, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(250, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(92, 42);
+            this.pictureBox2.Size = new System.Drawing.Size(79, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -573,17 +585,17 @@ namespace Dairy_Farm_SW_M
             this.panel4.BackColor = System.Drawing.Color.Silver;
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(30, 308);
+            this.panel4.Location = new System.Drawing.Point(30, 288);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(332, 48);
+            this.panel4.Size = new System.Drawing.Size(332, 34);
             this.panel4.TabIndex = 4;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(237, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(250, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(92, 42);
+            this.pictureBox3.Size = new System.Drawing.Size(79, 31);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -604,17 +616,17 @@ namespace Dairy_Farm_SW_M
             this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.pictureBox4);
             this.panel5.Controls.Add(this.label15);
-            this.panel5.Location = new System.Drawing.Point(30, 404);
+            this.panel5.Location = new System.Drawing.Point(30, 328);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(332, 61);
+            this.panel5.Size = new System.Drawing.Size(332, 40);
             this.panel5.TabIndex = 4;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(237, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(250, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(92, 54);
+            this.pictureBox4.Size = new System.Drawing.Size(79, 40);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -624,28 +636,28 @@ namespace Dairy_Farm_SW_M
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(16, 16);
+            this.label15.Location = new System.Drawing.Point(3, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(90, 32);
+            this.label15.Size = new System.Drawing.Size(137, 32);
             this.label15.TabIndex = 1;
-            this.label15.Text = "Cows";
+            this.label15.Text = "Breeding";
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Silver;
             this.panel6.Controls.Add(this.pictureBox5);
             this.panel6.Controls.Add(this.label16);
-            this.panel6.Location = new System.Drawing.Point(30, 471);
+            this.panel6.Location = new System.Drawing.Point(30, 374);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(332, 61);
+            this.panel6.Size = new System.Drawing.Size(332, 39);
             this.panel6.TabIndex = 4;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(237, 3);
+            this.pictureBox5.Location = new System.Drawing.Point(250, 3);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(92, 54);
+            this.pictureBox5.Size = new System.Drawing.Size(79, 36);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
@@ -655,11 +667,73 @@ namespace Dairy_Farm_SW_M
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(16, 16);
+            this.label16.Location = new System.Drawing.Point(3, 3);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(90, 32);
             this.label16.TabIndex = 1;
             this.label16.Text = "Cows";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Silver;
+            this.panel7.Controls.Add(this.pictureBox6);
+            this.panel7.Controls.Add(this.label17);
+            this.panel7.Location = new System.Drawing.Point(30, 419);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(332, 39);
+            this.panel7.TabIndex = 5;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(250, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(79, 36);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(3, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(122, 32);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "Finance";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Silver;
+            this.panel8.Controls.Add(this.pictureBox7);
+            this.panel8.Controls.Add(this.label18);
+            this.panel8.Location = new System.Drawing.Point(30, 464);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(332, 39);
+            this.panel8.TabIndex = 5;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(250, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(79, 36);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(3, 3);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(162, 32);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Dashboard";
             // 
             // cows
             // 
@@ -716,6 +790,12 @@ namespace Dairy_Farm_SW_M
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -767,5 +847,11 @@ namespace Dairy_Farm_SW_M
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label17;
     }
 }
