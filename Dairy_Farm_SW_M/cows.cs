@@ -51,5 +51,10 @@ namespace Dairy_Farm_SW_M
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
